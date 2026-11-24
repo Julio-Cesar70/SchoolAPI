@@ -130,6 +130,9 @@ namespace School.Infra.Data.Migrations
                     b.Property<int>("RegistrationId")
                         .HasColumnType("integer");
 
+                    b.Property<DateTime>("ScoreDate")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<int>("ScoreValue")
                         .HasColumnType("integer");
 

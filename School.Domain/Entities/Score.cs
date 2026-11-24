@@ -11,6 +11,7 @@ namespace School.Domain.Entities
         public int ScoreValue { get; set; }
         public bool IsAproved { get; set; }
         public bool IsExcluded { get; set; }
+        public DateTime ScoreDate { get; set; }
         public Registration? Registration { get; set; }
     }
 }
